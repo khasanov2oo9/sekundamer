@@ -1,0 +1,81 @@
+body {
+  background-color: #000;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  border-radius: 15px;
+  width: 200px;
+  outline: none;
+  font-size: 16px;
+}
+
+button#sendBtn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: #222;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  padding: 15px 30px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.counter p {
+  font-size: 24px;
+  color: white;
+  background: none;
+  border: none;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.counter p {
+  font-size: 36px;
+  color: red;
+  font-weight: bold;
+  width: 60px;
+  display: inline-block;
+}
+
+.color-picker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.color-picker label {
+  font-size: 20px;
+}
+
+.color-picker input[type="color"] {
+  width: 40px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+}
